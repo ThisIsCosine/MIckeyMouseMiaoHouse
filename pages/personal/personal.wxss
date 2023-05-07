@@ -1,0 +1,38 @@
+/* pages/personal/personal.wxss */
+.c{
+  font-size: 10mm;
+  font-style: oblique;
+  color: blueviolet;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.title .c1{
+  font-size: 3mm;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: 	#BEBEBE;
+}
+.c2{
+  height: 60mm;
+  border: solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+}
+
+.c3{
+   height: 15mm;
+   border: solid black;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+.title{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}

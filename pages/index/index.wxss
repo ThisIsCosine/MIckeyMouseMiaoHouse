@@ -1,0 +1,43 @@
+/* pages/index/index.wxss */
+text{
+  display: flex;
+  justify-content: center;
+}
+
+.c1{
+  color:purple;
+  font-size: 9mm;
+  display: flex;
+  justify-content: center;
+}
+image{
+  width: 80rpx;
+  height: 100rpx;
+  border: solid blueviolet;
+  border-radius: 50rpx;
+}
+
+.menu{
+  height: 2000rpx;
+  display: flex;
+  border: 1rpx solid #111111;
+  flex-direction: column;
+  /* 规定主轴方向  row row-reverse column column-reverse*/
+  justify-content: space-around;
+  /* 在主轴方向如何展示元素 center, space-aound, space-between, default: flex-start*/
+  align-items: center;
+  /*在副轴方向如何展示元素 */
+}
+
+.menu .item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.small{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5mm;
+}

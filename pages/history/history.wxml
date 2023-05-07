@@ -1,0 +1,8 @@
+<!--pages/history/history.wxml-->
+<text class="c1"> 历史记录 </text>
+<view>
+  数据：{{m}}
+</view>
+
+<button bindtap="change">清除数据</button>
+

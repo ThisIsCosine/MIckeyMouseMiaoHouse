@@ -1,0 +1,34 @@
+<!--pages/personal/personal.wxml-->
+<text class="c">同 学 您 好</text>
+
+
+<view class="title">
+  <text  class="c1">这是您的个人首页</text>
+  <text class="c1"> 您可以随意修改这里的内容</text>
+</view>
+<view>
+  <view bindtap="click" data-name="PI">
+    <text class="c3">个人信息</text>
+  </view>
+  <view> 
+    <navigator url="/pages/level/level" class="c3">等级</navigator>
+  </view>
+  <view>
+    <navigator url="/pages/history/history" class="c3">历史记录</navigator>
+  </view>
+  <view>
+    <navigator url="/pages/recommend/recommend" class="c3">开发者选项</navigator>
+  </view>
+</view>
+
+<view>
+  当前用户名：{{name}}
+</view>
+<view bindtap="getUserName" style="position: relative; left: 0rpx; top: -1rpx">
+  获取当前用户名
+</view>
+<image src="{{path}}" style="height: 200rpx; width: 200rpx; position: relative; left: 276rpx; top: 10rpx">
+
+</image>
+
+<button open-type="getUserInfo" bindgetuserinfo="getUserName">授权登录</button>

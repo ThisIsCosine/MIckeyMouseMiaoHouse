@@ -1,0 +1,10 @@
+<!--pages/personalInformation/personalInfermation.wxml-->
+<view class="c1">
+  <text>学生姓名：小蓝鲸</text>
+  <text>年级：大坤（二点五）</text>
+  <text>爱好：做微只因分</text>
+  <view>
+    <text>自画像</text>
+    <image src="/static/ikun.jpg"></image>
+  </view>
+</view>

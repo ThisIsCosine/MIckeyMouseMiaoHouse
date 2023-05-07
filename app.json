@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/personal/personal",
+    "pages/personalInformation/personalInfermation",
+    "pages/level/level",
+    "pages/recommend/recommend",
+    "pages/history/history"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#8470FF",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "米奇喵喵屋"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "个人"
+      }
+    ]
+  }
+}

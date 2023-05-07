@@ -1,0 +1,33 @@
+<!--pages/index/index.wxml-->
+<text>欢迎来到南京大学鼓楼校区\n</text>
+<text>这是校园导览</text>
+<view class="c1">Welcome</view>
+
+<view class="menu">
+  <view class="item">
+    <image src="/static/nju.png"></image>
+    <text>VIDEO</text>
+  </view>
+  <view class="item">
+    <image src="/static/nju.png"></image>
+    <text>PICTURE</text>
+  </view>
+  <view class="item">
+    <image src="/static/nju.png"></image>
+    <text>WAY</text>
+  </view>
+  <view class="item">
+    <image src="/static/nju.png"></image>
+    <text>HELP</text>
+  </view>
+</view>
+
+<view class="small">
+  <image src="/static/nju.png"></image>
+    <image src="/static/nju.png"></image>
+    <image src="/static/nju.png"></image>
+      <image src="/static/nju.png"></image>
+</view>
+
+
+

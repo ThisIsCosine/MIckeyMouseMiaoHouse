@@ -1,0 +1,6 @@
+<!--pages/recommend/recommend.wxml-->
+<text >如果您喜欢我们的小程序 那真是\n</text>
+<view class="c1">
+  <text class>泰裤辣！！！</text>
+  <image src="/static/ku.png"></image>
+</view>
